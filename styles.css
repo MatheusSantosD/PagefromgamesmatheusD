@@ -1,0 +1,88 @@
+body {
+    color: white;
+    background: rgb(0, 4, 6);
+    font-family: "Geist Mono", monospace;
+    margin-bottom: 100px
+    
+}
+
+header {
+    border-bottom: solid 2px rgb(28, 223, 236);
+    padding: 20px;
+    font-size: 40px;
+    color: rgb(9, 237, 245);
+    font-family: "Chakra Petch", sans-serif;
+}
+
+
+.chamada {
+    background: rgb(1, 138, 148);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+
+p {
+    font-size: 25px;
+}
+
+
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.noticias {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 100px;
+    border-bottom: solid 2px rgb(28, 223, 236);
+    padding: 20px;
+    color: rgb(9, 237, 245);
+    
+    
+}
+
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 190px;
+    background: rgb(1, 138, 148);
+    padding-bottom: 1px;
+    padding-top: 1px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 2px solid green;
+    background: rgb(1, 138, 148);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.noticias h2 {
+    color: rgb(255, 255, 255);
+    background: rgb(2, 132, 142);
+    padding-bottom: 30px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
