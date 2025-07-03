@@ -1,39 +1,39 @@
 body {
-    color: white;
-    background: rgb(0, 4, 6);
+    color: rgb(252, 252, 252);
+    background: rgb(0, 0, 0);
     font-family: "Geist Mono", monospace;
-    margin-bottom: 100px
+    margin-bottom: 1000px;
     
 }
 
 header {
-    border-bottom: solid 2px rgb(28, 223, 236);
-    padding: 20px;
-    font-size: 40px;
-    color: rgb(9, 237, 245);
+    border-bottom: solid 100px rgb(3, 179, 192);
+    padding: 30px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
     font-family: "Chakra Petch", sans-serif;
 }
 
 
 .chamada {
-    background: rgb(1, 138, 148);
-    padding-bottom: 80px;
-    padding-top: 80px;
+    background: rgb(17, 162, 182);
+    padding-bottom: 90px;
+    padding-top: 40px;
     display: flex;
     justify-content: center;
 }
 
 .chamada-texto {
-    margin-right: 5%;
+    margin-right: 2%;
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 60px;
 }
 
 
 p {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 
@@ -58,7 +58,7 @@ p {
 
 .categoria-videos img {
     opacity: 0.5;
-    height: 190px;
+    height: 150px;
     background: rgb(1, 138, 148);
     padding-bottom: 1px;
     padding-top: 1px;
@@ -85,4 +85,28 @@ p {
     padding-top: 30px;
     display: flex;
     justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .chamada {
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 0;
+    }
+    iframe {
+        width: 90%;
+        height: auto;
+    }
+    header {
+        font-size: 28px;
+        text-align: center;
+    }
+    h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    p {
+        font-size: 20px;
+        text-align: center;
+    }
 }
